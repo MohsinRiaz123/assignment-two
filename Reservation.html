@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Seekers</title>
+</head>
+
+<body>
+    <h1>Adventure Seekers</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="places.html">Places</a>
+        <a href="packages.html">Packages</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="Reservation.html">Reservation</a>
+    </nav>
+    <header>
+        <h1>Reservation</h1>
+        <h3>Please fill the following form for Reservation</h3>
+    </header>
+    <main>
+        <form action="">
+            <label>Full Name *</label><br>
+            <input type="text" placeholder="Enter First & Last Name" required="required" />
+            <br><br>
+            <label>Enter Address *</label><br>
+            <input type="text" placeholder="Address" required="required" />
+            <br><br>
+            <label for="tour">Select Tour package*</label><br>
+            <select id="tour" required="required">
+                <option>Maarre</option>
+                <option>Kashmir</option>
+            </select>
+            <br><br>
+            <label>Arrival Date *</label><br>
+            <input type="date" / required="required">
+            <br><br>
+            <label>No of Person’s *</label><br>
+            <input type="number" required="required" />
+            <br><br>
+            <label>What do you want to avail *</label><br>
+            <br>
+            <input id="b" type="checkbox" /><label for="b">Boarding</label><br>
+            <input id="f" type="checkbox" required="required" /><label for="f">Fooding</label><br>
+            <input id="s" type="checkbox" /><label for="s">Sight Seeing</label>
+            <br><br>
+            <label>Discount Coupon Code</label><br>
+            <input type="text" /><br><br>
+            <label>Terms & conditions *</label><br>
+            <input id="t" type="radio" name="Terms" required="required" /><label for="t">I Agree</label>
+            <input id="d" type="radio" name="Terms" /><label for="d">I Disagree</label>
+            <br><br>
+            <input type="submit" value="Compleate Reservation" />
+        </form>
+    </main>
+</body>
+<footer>
+    <div style="background-color: rgb(183, 204, 88);">
+        <ul>
+            <li><a href="https://www.google.com/">Google</a></li>
+            <li><a href="https://www.youtube.com/">Youtube</a></li>
+            <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+        </ul>
+    </div>
+</footer>
+
+</html>
